@@ -1,10 +1,6 @@
 # banking_churn
 
-### **GitHub README for Banking Churn Analysis**
-
-Below is a professional, recruiter-friendly README structure for your **Banking Churn Analysis** project.
-
----
+<br>
 
 # **Banking Churn Analysis and Prediction**
 

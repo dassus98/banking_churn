@@ -4,7 +4,7 @@
 
 # **Banking Churn Analysis and Prediction**
 
-This project explores customer churn behavior in a banking dataset and predicts churn using advanced machine learning models. 10,000 customer records were analyzed for identifiable patterns and predictive models were built to provide actionable insights to minimize churn rates. The models include **Decision Trees**, **Random Forests**, and **Feedforward Neural Networks** which were all optimized for high performance.
+This project explores customer churn behavior in a banking dataset and predicts churn using advanced machine learning models. 10,000 customer records were analyzed for identifiable patterns and predictive models were built to provide actionable insights to minimize churn rates. The models include **Decision Trees**, **Random Forests** and **Feedforward Neural Networks** which were all optimized for high performance.
 
 ---
 

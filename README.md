@@ -4,7 +4,7 @@
 
 # **Banking Churn Analysis and Prediction**
 
-This project explores customer churn behavior in a banking dataset and predicts churn using advanced machine learning models. By analyzing 10,000 customer records, we identified patterns, built predictive models, and provided actionable insights to minimize churn rates. The models include **Decision Trees**, **Random Forests**, and **Neural Networks**, optimized for high performance.
+This project explores customer churn behavior in a banking dataset and predicts churn using advanced machine learning models. 10,000 customer records were analyzed for identifiable patterns and predictive models were built to provide actionable insights to minimize churn rates. The models include **Decision Trees**, **Random Forests**, and **Feedforward Neural Networks** which were all optimized for high performance.
 
 ---
 
@@ -22,7 +22,7 @@ This project explores customer churn behavior in a banking dataset and predicts 
 ---
 
 ## **Project Overview**
-Customer churn is a critical challenge in the banking industry, where retaining customers is more cost-effective than acquiring new ones. This project provides:
+Customer churn is a critical challenge in the banking industry where retaining customers is more cost-effective than acquiring new ones. This project provides:
 - In-depth **Exploratory Data Analysis (EDA)** to identify churn patterns.
 - Predictive models to classify customers likely to churn.
 - Insights into key drivers of churn for targeted intervention.
@@ -30,7 +30,7 @@ Customer churn is a critical challenge in the banking industry, where retaining 
 ---
 
 ## **Dataset Description**
-The dataset contains 10,000 rows of customer data, including:
+The dataset contains 10,000 rows of customer data including:
 - **Demographics**: Gender, Geography, Age.
 - **Account Information**: Balance, Number of Products, Credit Score.
 - **Churn Labels**: Whether the customer left the bank (1 = Churn, 0 = Not Churn).
@@ -39,13 +39,11 @@ Source: [Bank Customer Churn Prediction Dataset](https://www.kaggle.com/datasets
 
 ---
 
-## **Technologies Used**
-- **Programming**: Python
-- **Libraries**: 
+## **Libraries Used**
   - Data Analysis: `Pandas`, `NumPy`
   - Visualization: `Matplotlib`, `Seaborn`
   - Machine Learning: `Scikit-learn`, `TensorFlow`
-- **Tools**: Jupyter Notebook
+- **Tools Used**: Jupyter Notebook
 
 ---
 
@@ -67,12 +65,13 @@ Key insights from the Exploratory Data Analysis include:
    - Scaled numeric features using `StandardScaler`.
 
 2. **Models Used**:
+   - Each modelling technique was explored as both a raw Base model and a tuned Final model. 
    - **Decision Tree**:
-     - Baseline model with an accuracy of XX%.
+     - Baseline model with a validation accuracy of 79.1%.
    - **Random Forest**:
-     - Achieved XX% accuracy and a feature importance analysis.
+     - Baseline model with a validation accuracy of 85.4%.
    - **Neural Network**:
-     - Deep learning model achieving XX% accuracy after hyperparameter tuning.
+     - Baseline model with a validation accuracy of 86.5%.
 
 3. **Evaluation Metrics**:
    - Accuracy
@@ -85,9 +84,10 @@ Key insights from the Exploratory Data Analysis include:
 ## **Results**
 | Model             | Accuracy | Precision | Recall | F1-Score |
 |--------------------|----------|-----------|--------|----------|
-| Decision Tree      | XX%      | XX%       | XX%    | XX%      |
-| Random Forest      | XX%      | XX%       | XX%    | XX%      |
-| Neural Network     | XX%      | XX%       | XX%    | XX%      |
+| Decision Tree      | 86.5%      | 78.5%       | 46.6%    | 58.5%      |
+| Random Forest      | 87.0%      | 83.6%       | 45.1%    | 58.6%      |
+| Neural Network 1   | 86.0%      | 77.2%       | 38.2%    | 51.2%      |
+| Neural Network 2   | 85.5%      | 83.3%       | 31.9%    | 46.1%      |
 
 Key drivers of churn identified:
 - **Tenure**: Short tenure increases churn likelihood.

@@ -40,9 +40,9 @@ Source: [Bank Customer Churn Prediction Dataset](https://www.kaggle.com/datasets
 ---
 
 ## **Libraries Used**
-  - Data Analysis: `Pandas`, `NumPy`
-  - Visualization: `Matplotlib`, `Seaborn`
-  - Machine Learning: `Scikit-learn`, `keras`, `TensorFlow`
+  - Data Analysis: `pandas`, `numPy`
+  - Visualization: `matplotlib`, `seaborn`
+  - Machine Learning: `scikit-learn`, `keras`, `TensorFlow`
 - **Tools Used**: Jupyter Notebook
 
 ---

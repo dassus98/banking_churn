@@ -90,9 +90,15 @@ Key insights from the Exploratory Data Analysis include:
 | Neural Network 2   | 85.5%      | 83.3%       | 31.9%    | 46.1%      |
 
 Key drivers of churn identified:
-- **Tenure**: Short tenure increases churn likelihood.
-- **Number of Products**: Customers with only one product are more likely to churn.
-- **Geography**: Customers from certain regions show higher churn rates.
+- **Age**: Older customers are more likely to churn.
+- **Number of Products**: Customers with more products are more likely to churn.
+- **Is Active Member**: *TEXT TEXT TEXT*.
+
+Key strategies to reduce churn:
+- Focus on retention of long-term customers
+- Increase product variety among customers by offering them deals on products which they haven't used or are unaware of
+- Offer exclusive deals to long-term customers for new product offerings
+- 
 
 ---
 
